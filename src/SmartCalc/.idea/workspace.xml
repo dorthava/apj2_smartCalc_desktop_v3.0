@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a1ae3e5e-bb87-403f-8ac5-2df745e6558a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/target/SmartCalc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/c_src/calculator_model.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/c_src/calculator_model.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/c_src/core.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/c_src/core.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/c_src/token.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/c_src/token.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/SmartCalc/app/MainApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/SmartCalc/model/CalculatorModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/SmartCalc/model/CreditModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/SmartCalc/model/CreditType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/SmartCalc/model/DepositModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/SmartCalc/repository/HistoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/SmartCalc/service/HistoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/SmartCalc/view/CreditCalcController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/SmartCalc/view/DepositCalcController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/SmartCalc/view/DepositCalcController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/SmartCalc/view/GraphController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/SmartCalc/view/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/SmartCalc/view/SmartCalcController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/SmartCalc/viewmodel/CalculatorViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/SmartCalc/viewmodel/CreditViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/school21/SmartCalc/viewmodel/DepositViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/about_the_program.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/calculator.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/credit.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/deposit.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/plot.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/school21/SmartCalc/model/CalculatorModelTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2knZS400I5UYnufALQ2C7RMulX0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.MainApp.executor": "Run",
+    "Application.Unnamed.executor": "Run",
+    "JAR Application.SmartCalc-jar-with-dependencies.jar.executor": "Run",
+    "JUnit.CalculatorModelTest.executor": "Run",
+    "Maven.SmartCalc [clean].executor": "Run",
+    "Maven.SmartCalc [org.apache.maven.plugins:maven-jar-plugin:3.3.0:help].executor": "Run",
+    "Maven.SmartCalc [org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar].executor": "Run",
+    "Maven.SmartCalc [org.apache.maven.plugins:maven-jar-plugin:3.3.0:test-jar].executor": "Run",
+    "Maven.SmartCalc [package].executor": "Run",
+    "Maven.SmartCalc [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "develop",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/dorthava/APJ2_SmartCalc_v3.0_Desktop_Java-1/src/SmartCalc/src/main/resources/lib/linux",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.general",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "SQLite"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/lib/linux" />
+      <recent name="$PROJECT_DIR$/libs" />
+      <recent name="$PROJECT_DIR$/src/main/resources/c_src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/c_src" />
+      <recent name="$PROJECT_DIR$/src/main/resources/lib/linux" />
+      <recent name="$PROJECT_DIR$/src/main/resources/images" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="MainApp" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="edu.school21.SmartCalc.app.MainApp" />
+      <module name="SmartCalc" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=src/main/resources/lib/linux" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorModelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SmartCalc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.school21.SmartCalc.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.school21.SmartCalc.model" />
+      <option name="MAIN_CLASS_NAME" value="edu.school21.SmartCalc.model.CalculatorModelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmartCalc-jar-with-dependencies.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/SmartCalc-jar-with-dependencies.jar" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=src/main/resources/lib/linux" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainApp" />
+      <item itemvalue="JAR Application.SmartCalc-jar-with-dependencies.jar" />
+      <item itemvalue="JUnit.CalculatorModelTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.SmartCalc-jar-with-dependencies.jar" />
+        <item itemvalue="JUnit.CalculatorModelTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1ae3e5e-bb87-403f-8ac5-2df745e6558a" name="Changes" comment="" />
+      <created>1723921298555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723921298555</updated>
+      <workItem from="1723967563591" duration="6292000" />
+      <workItem from="1724052036750" duration="32968000" />
+      <workItem from="1724128059767" duration="35433000" />
+      <workItem from="1724215807226" duration="40759000" />
+      <workItem from="1724307426105" duration="24405000" />
+      <workItem from="1724388352887" duration="40412000" />
+      <workItem from="1724476075059" duration="22281000" />
+      <workItem from="1724651515527" duration="11000" />
+      <workItem from="1724651814547" duration="19739000" />
+      <workItem from="1724736859708" duration="27188000" />
+      <workItem from="1724775497835" duration="3507000" />
+      <workItem from="1724780340942" duration="3653000" />
+      <workItem from="1724819392694" duration="29986000" />
+      <workItem from="1724904791534" duration="2720000" />
+      <workItem from="1724912446707" duration="209000" />
+      <workItem from="1724913299886" duration="2025000" />
+      <workItem from="1724915969646" duration="12912000" />
+      <workItem from="1724932662976" duration="954000" />
+      <workItem from="1724941655491" duration="2530000" />
+      <workItem from="1724999742361" duration="14528000" />
+      <workItem from="1725082426559" duration="6223000" />
+      <workItem from="1725098508452" duration="1561000" />
+      <workItem from="1725102194092" duration="839000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SmartCalc$CalculatorModelTest.ic" NAME="CalculatorModelTest Coverage Results" MODIFIED="1724845438195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>edu.school21.SmartCalc.model.*</FILTER>
+    </SUITE>
+  </component>
+</project>

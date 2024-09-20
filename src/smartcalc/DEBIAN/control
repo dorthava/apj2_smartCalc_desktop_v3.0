@@ -1,0 +1,7 @@
+Package: smartcalc
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: all
+Maintainer: Your Name <you@example.com>
+Description: SmartCalc v3.0 - A powerful calculator with a modern GUI.

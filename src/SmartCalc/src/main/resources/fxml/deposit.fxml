@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="727.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.school21.SmartCalc.view.DepositCalcController">
+    <children>
+        <HBox layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="325.0">
+            <children>
+                <Label prefHeight="35.0" prefWidth="150.0" text="Deposit amount" />
+                <TextField fx:id="displayDepositAmount" prefHeight="26.0" prefWidth="260.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="14.0" layoutY="49.0" prefHeight="35.0" prefWidth="325.0">
+            <children>
+                <Label prefHeight="35.0" prefWidth="150.0" text="Deposit term" />
+                <TextField fx:id="displayDepositTerm" prefHeight="26.0" prefWidth="140.0" />
+                <DatePicker fx:id="datePicker" prefHeight="26.0" prefWidth="160.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="14.0" layoutY="84.0" prefHeight="35.0" prefWidth="325.0">
+            <children>
+                <Label prefHeight="35.0" prefWidth="150.0" text="Interest rate" />
+                <TextField fx:id="displayInterestRate" prefHeight="26.0" prefWidth="260.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="14.0" layoutY="119.0" prefHeight="35.0" prefWidth="325.0">
+            <children>
+                <Label prefHeight="35.0" prefWidth="150.0" text="Tax rate" />
+                <TextField fx:id="displayTaxRate" prefHeight="26.0" prefWidth="260.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="14.0" layoutY="154.0" prefHeight="35.0" prefWidth="325.0">
+            <children>
+                <Label prefHeight="35.0" prefWidth="240.0" text="Periodicity of payment" />
+                <ComboBox fx:id="boxPeriodicityOfPayment" prefHeight="26.0" prefWidth="264.0" />
+            </children>
+        </HBox>
+        <RadioButton fx:id="radioButtonCapitalizationOfInterest" layoutX="14.0" layoutY="189.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="325.0" text="Capitalization of interest" />
+        <HBox layoutX="14.0" layoutY="321.0" prefHeight="35.0" prefWidth="325.0">
+            <children>
+                <Label prefHeight="35.0" prefWidth="150.0" text="Accrued interest" />
+                <TextField fx:id="displayAccruedInterest" prefHeight="26.0" prefWidth="255.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="14.0" layoutY="356.0" prefHeight="35.0" prefWidth="325.0">
+            <children>
+                <Label prefHeight="35.0" prefWidth="150.0" text="Tax amount" />
+                <TextField fx:id="displayTaxAmount" prefHeight="26.0" prefWidth="255.0" />
+            </children>
+        </HBox>
+        <HBox layoutX="14.0" layoutY="391.0" prefHeight="35.0" prefWidth="455.0">
+            <children>
+                <Label prefHeight="35.0" prefWidth="455.0" text="Deposit amount by the end of the term" />
+                <TextField fx:id="displayDepositAmountByTheEndOfTheTerm" prefHeight="26.0" prefWidth="385.0" />
+            </children>
+        </HBox>
+        <TableView fx:id="replenishmentTable" layoutX="356.0" layoutY="49.0" prefHeight="330.0" prefWidth="255.0" AnchorPane.rightAnchor="114.0">
+            <columns>
+                <TableColumn fx:id="amountColumn" prefWidth="70.0" text="Amount" />
+                <TableColumn fx:id="dateColumn" prefWidth="70.0" text="Date" />
+                <TableColumn fx:id="typeColumn" prefWidth="60.0" text="Type" />
+                <TableColumn fx:id="deleteColumn" prefWidth="60.0" text="Delete" />
+            </columns>
+        </TableView>
+        <Label layoutX="360.0" layoutY="24.0" prefHeight="16.0" prefWidth="218.0" text="Replenishment and withdrawal" />
+        <Button layoutX="14.0" layoutY="228.0" mnemonicParsing="false" onAction="#handleButtonAddWithdrawal" prefHeight="35.0" prefWidth="151.0" text="Add withdrawal" />
+        <Button layoutX="188.0" layoutY="228.0" mnemonicParsing="false" onAction="#handleButtonAddReplenishment" prefHeight="35.0" prefWidth="151.0" text="Add replenishment" />
+        <HBox layoutX="14.0" layoutY="426.0" prefHeight="35.0" prefWidth="455.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#handleButtonCalculate" prefHeight="65.0" prefWidth="233.0" text="Рассчитать" />
+                <Button mnemonicParsing="false" onAction="#handleButtonClear" prefHeight="67.0" prefWidth="226.0" text="Сбросить" />
+            </children>
+        </HBox>
+      <HBox layoutX="14.0" layoutY="274.0" prefHeight="35.0" prefWidth="325.0">
+         <children>
+            <TextField fx:id="displayAddDepositOrWithdrawal" prefHeight="26.0" prefWidth="280.0" />
+            <DatePicker fx:id="datePickerAddDepositOrWithdrawal" prefHeight="26.0" prefWidth="200.0" />
+         </children>
+      </HBox>
+    </children>
+</AnchorPane>

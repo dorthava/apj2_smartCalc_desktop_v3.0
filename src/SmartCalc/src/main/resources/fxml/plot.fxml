@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="502.0" prefWidth="634.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.school21.SmartCalc.view.GraphController">
+    <children>
+      <AnchorPane prefHeight="502.0" prefWidth="626.0">
+         <children>
+            <LineChart fx:id="graph" layoutX="14.0" layoutY="14.0" prefHeight="287.0" prefWidth="600.0">
+               <xAxis>
+                  <NumberAxis label="X-Axis" lowerBound="-1000000" upperBound="1000000" />
+               </xAxis>
+               <yAxis>
+                  <NumberAxis label="Y-Axis" lowerBound="-1000000" upperBound="1000000" />
+               </yAxis>
+            </LineChart>
+            <TextField layoutX="57.0" layoutY="320.0" text="500000" fx:id="xMinField" />
+            <TextField layoutX="57.0" layoutY="385.0" text="500000" fx:id="xMaxField" />
+            <TextField layoutX="373.0" layoutY="320.0" text="500000" fx:id="yMinField" />
+            <TextField layoutX="373.0" layoutY="385.0" text="500000" fx:id="yMaxField" />
+            <Label layoutX="58.0" layoutY="293.0" prefHeight="16.0" prefWidth="171.0" text="                Xmin" />
+            <Label layoutX="58.0" layoutY="358.0" prefHeight="16.0" prefWidth="171.0" text="                Xmax" />
+            <Label layoutX="373.0" layoutY="293.0" prefHeight="16.0" prefWidth="171.0" text="                Ymin" />
+            <Label layoutX="373.0" layoutY="358.0" prefHeight="16.0" prefWidth="171.0" text="                Ymax" />
+         </children>
+      </AnchorPane>
+    </children>
+</VBox>
